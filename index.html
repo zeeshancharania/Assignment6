@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 6</title>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment6.css"/>
+    <script src="js/Assignment6.js"></script>
+</head>
+
+<body>
+<h1>Zee Charania Assignment 6</h1>    
+<hr>
+<select onchange="MenuChoice()" id="menu">
+ <option>Please select an option</option>
+ <option>Show Area 1</option>
+ <option>Show Area 2</option>
+ <option>Show Area 3</option>
+</select>
+<section id="customer" class="area1">
+<label>Please Enter a Customer ID: </label>
+<input type="text" id="custid">
+<label class="example"> The customer ID should be 5 uppercase letters.</label>
+<br>
+<label>Pleaes enter the Customer Name: </label>
+<input type="text" id="custname">
+<br>
+<label>Pleaes enter the Customer's City: </label>
+<input type="text" id="custcity">
+<br>
+<button onclick="CreateCustomer()">Create Customer</button>
+<br>
+<label id="result">The operation's result will display here.</label>
+<br>
+</section>
+<br>
+<section id="orderinfo" class="area2">
+<label>Please enter an Order ID:</label>
+<input type="text" id="ordernumber">
+<br>
+<label>Please enter the Shipping Address:</label>
+<input type="text" id="shippingaddress">
+<br>
+<label>Please input the Shipping City:</label>
+<input type="text" id="shipcity">
+<br>
+<label>Please input the Shipping Name:</label>
+<input type="text" id="shipname">
+<br>
+<label>Please input the Shipping Postal Code:</label>
+<input type="text" id="shipcode">
+<br>
+<button onclick="UpdateOrderAddress()">Update Order Address</button>
+<br>
+<label id="status">The operation's result will be displayed here.</label>
+</section>
+<br>
+<section id="deleteinfo" class="area3">
+<label>Please input the Customer ID:</label>
+<input type="text" id="delcustid">
+<label class="info"> The customer ID should be 5 uppercase letters.</label>
+<br>
+<button onclick="DeleteCustomer()">Delete Customer</button>
+<br>
+<label id="completion">Upon deletion the result will diplsay here.</label>
+</section>
+
+</body>
+</html>

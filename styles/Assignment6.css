@@ -1,0 +1,11 @@
+.example {font-style: italic; color: red; }
+
+.info {font-style: italic; color: red; }
+
+section.area1 {visibility: hidden; width: 600px ; background-color: #dccdf4 ; position: absolute ; font-family: sans-serif ; }
+
+section.area2 {visibility: hidden ; width: 600px ; background-color: #f2cbcb ; position: absolute ; font-family: sans-serif ; }
+
+section.area3 {visibility: hidden ; width: 600px ; background-color: #cad9f1 ; position: absolute ; font-family: sans-serif ; }
+
+h1 {text-align: left ; font-family: sans-serif ; width: 600px ; }
